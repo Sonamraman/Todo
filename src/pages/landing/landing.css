@@ -1,0 +1,51 @@
+.links:hover,
+.links:focus {
+  border-bottom-color: white;
+}
+ .links {
+    padding: .27rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+  }
+
+.shopicon {
+    color:white
+}
+
+/* Mobile-Phone */
+
+@media (max-width: 786px){
+    h1{
+        color:red
+    }
+    .getbtn{
+        margin-bottom: 2rem;
+    }
+}
+
+/* @media (max-width:468px){
+    h1{
+        color:blue
+    }
+} */
+
+/* Desktop */
+
+@media(min-width: 1024px){
+    h5{
+        color: crimson;
+    }
+}
+
+/* Tablets */
+
+@media(min-width:769px) and (max-width: 1023px){
+    h1{
+        text-transform: uppercase;
+    }
+    .getbtn{
+        margin-bottom: 2rem;
+    }
+}
